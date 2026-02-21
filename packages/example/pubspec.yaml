@@ -21,7 +21,8 @@ dependencies:
   path: ^1.9.1
   path_provider: ^2.1.5
 
-  google_mlkit_commons: any
+  google_mlkit_commons:
+    path: ../google_mlkit_commons
   google_mlkit_barcode_scanning:
     path: ../google_mlkit_barcode_scanning
   google_mlkit_digital_ink_recognition:
@@ -53,6 +54,19 @@ dependencies:
     path: ../google_mlkit_translation
   google_mlkit_smart_reply:
     path: ../google_mlkit_smart_reply
+
+  google_mlkit_genai_summarization:
+    path: ../google_mlkit_genai_summarization
+  google_mlkit_genai_proofreading:
+    path: ../google_mlkit_genai_proofreading
+  google_mlkit_genai_rewriting:
+    path: ../google_mlkit_genai_rewriting
+  google_mlkit_genai_image_description:
+    path: ../google_mlkit_genai_image_description
+  google_mlkit_genai_speech_recognition:
+    path: ../google_mlkit_genai_speech_recognition
+  google_mlkit_genai_prompt:
+    path: ../google_mlkit_genai_prompt
 
 dependency_overrides:
   google_mlkit_commons:
